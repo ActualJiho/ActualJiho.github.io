@@ -1,0 +1,15 @@
+header {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+body {
+  background-color: #FFA07A;
+}
+html {
+  font-family: 'Cormorant Garamond', serif;
+}
+.introduction {
+  text-align: center;
+}
+
