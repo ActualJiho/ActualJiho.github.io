@@ -46,7 +46,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-
 li {
   margin-left: 0;
 }
@@ -57,6 +56,22 @@ img {
   align-items: center;
   margin: 0 auto;
   border-radius:  5%;
+}
+/*links*/
+a:link {
+  color: rgb(14, 84, 52);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(93, 28, 172);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(19, 223, 16);
+  background-color: transparent;
+  text-decoration: underline;
 }
 @media screen (max-width: 920px;) {
   .nav-bar {
