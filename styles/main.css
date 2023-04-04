@@ -1,15 +1,65 @@
-header {
-  font-size: 60px;
-  text-align: center;
-  color: white;
-}
-body {
-  background-color: #FFA07A;
-}
 html {
-  font-family: 'Cormorant Garamond', serif;
-}
-.introduction {
+  font-family: 'Roboto Slab', serif;
   text-align: center;
+  display: flex;
+  justify-content: center;
+}  
+/*header*/
+header {
+  background-color:bisque;
+  margin: -10px;
+}
+.nav-bar {
+  display: inline-block
+}
+.nav-bar ul {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.nav-bar ul li {
+  display: inline-flex;
+  margin: 20px;
+}
+/*tech-blog*/
+.tech-blog {
+  background-color: rgb(202, 115, 115);
+  margin: 0px -10px;
+  padding: 5px;
+}
+.tech-blog ul li {
+  margin: 20px;
+}
+/*core-blog*/
+.core-blog {
+  background-color: rgb(99, 99, 189);
+  padding: 5px;
+  margin: 0px -10px;
+}
+/*about-me*/
+.about-me {
+  background-color: rgb(219, 219, 136);
+  padding: 5px;
+  margin: 0px -10px;
+  border-left: 50px;
+}
+ul {
+  list-style: none;
+  padding: 0;
 }
 
+li {
+  margin-left: 0;
+}
+img {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius:  5%;
+}
+@media screen (max-width: 920px;) {
+  .nav-bar {
+   margin: 0 auto;
+  }
+ }
