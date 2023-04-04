@@ -3,7 +3,7 @@ html {
   text-align: center;
   display: flex;
   justify-content: center;
-}  
+}
 /*header*/
 header {
   background-color:bisque;
@@ -49,6 +49,9 @@ ul {
 li {
   margin-left: 0;
 }
+p {
+  padding: 0px 80px;
+}
 img {
   width: 300px;
   display: flex;
@@ -73,8 +76,14 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
-@media screen (max-width: 920px;) {
-  .nav-bar {
-   margin: 0 auto;
+.tech-blog-sprint-2 {
+  background-color: rgb(202, 115, 115);
+  margin: 0px -10px;
+  padding: 5px;
+}
+@media (max-width: 800px) {
+  * {
+  font-size: 20px;
   }
- }
+}
+ 
