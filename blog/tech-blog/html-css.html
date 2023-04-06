@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--stylesheet-->
-        <link href="../styles/main.css" rel="stylesheet" type="text/css">
+        <link href="/styles/main.css" rel="stylesheet" type="text/css">
         <!--google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,25 +13,39 @@
     </head>
     <body>
       <header>
-        <!--navbar-->
         <nav class="nav-bar">
-          <h1>Jiho's blog</h1>
+          <label class="title">Jiho's Blog</label>
             <ul>
-              <li><a href="../index.html">Home</a></li>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/blog/tech-blog.html">Tech Blog</a></li>
+              <li><a href="/blog/core-blog.html">Core Blog</a></li>
+              <li><a href="/blog/about-me.html">About Me</a></li>
             </ul>
         </nav>
       </header>
-      <!--techblog-->
-      <div class="tech-blog-sprint-2">
-        <h2>What is difference between Marin, Border, and Padding?</h2>
-        <h3>Margin</h3>
-        <p>Margin is the space outside of element's border. It's the distance between the element and the adjacent elements. Margin can be set for all four sides separately or at once. You can also set a negative margin which will cause element to overlap to the next element. It is same as the whitespace you see when you write paragraphs in Microsoft Word document.</p>
-        <h3>Border</h3>
-        <p>Border is a line of box around an element's border and it seperates margin and padding. Think of it as a frame for a picture. </p>
-        <h3>Padding</h3>
-        <p>Padding is the space inside of element's border. Padding can be set for all four sides separately or at once just like margin. The padding is inside the border, but outside the actual content.</p>
-        <img src="https://iq.opengenus.org/content/images/2020/03/css_box_model.png" alt="Photo diagram of margin, border and padding">
+      <div class="margin-border-padding-page">
+        <div class="margin-border-padding-page-img">
+          <img src="https://nulab.com/app/uploads/2016/03/4.png">
         <figcaption>Diagram</figcaption>
+        </div>
+        <div class="margin-border-padding-page-text">
+          <h2>What is difference between Marin, Border, and Padding?</h2>
+          <h3>Margin</h3>
+          <p>Margin is the space outside of element's border. It's the distance between the element and the adjacent elements. Margin can be set for all four sides separately or at once. You can also set a negative margin which will cause element to overlap to the next element. It is same as the whitespace you see when you write paragraphs in Microsoft Word document.</p>
+          <h3>Border</h3>
+          <p>Border is a line of box around an element's border and it seperates margin and padding. Think of it as a frame for a picture. </p>
+          <h3>Padding</h3>
+          <p>Padding is the space inside of element's border. Padding can be set for all four sides separately or at once just like margin. The padding is inside the border, but outside the actual content.</p>
+        </div>
       </div>
       </body>
+      <footer>
+        <nav class="nav-bar">
+          <label class="footer-title">Contact</label>
+           <ul>
+            <li><a href="https://www.linkedin.com/in/jiho-burgess-kim-b7882a160/">Linkedin</a></li>
+            <li><a href="https://github.com/jiho-burgesskim">GitHub</a></li>
+          </ul>
+         </nav>
+      </footer>
 </html>
