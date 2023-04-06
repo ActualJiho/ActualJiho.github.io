@@ -160,3 +160,16 @@ margin-left: 40px
   height: 300px;
   max-width: 300px;
 }
+
+.margin-border-padding-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+.margin-border-padding-page-img {
+margin-top: 60px;
+margin-left: 40px
+}
+.margin-border-padding-page-text {
+  padding: 40px;
+  margin: 0;
+}
