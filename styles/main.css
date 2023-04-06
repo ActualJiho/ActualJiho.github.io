@@ -1,89 +1,124 @@
 html {
   font-family: 'Roboto Slab', serif;
-  text-align: center;
-  display: flex;
-  justify-content: center;
 }
-/*header*/
-header {
-  background-color:bisque;
-  margin: -10px;
+body {
+  padding: 0;
+  margin: 0;
+}
+/*navbar*/
+.title {
+  font-size: 50px;
+  line-height: 100px;
+  padding-left: 30px;
 }
 .nav-bar {
-  display: inline-block
+  list-style: none;
+ 
 }
 .nav-bar ul {
-  display: inline-flex;
-  justify-content: space-between;
+  float: right;
+  line-height: 100px;
+  margin: 0;
+  padding: 0;
+  padding-right: 30px;
 }
 .nav-bar ul li {
-  display: inline-flex;
-  margin: 20px;
+  display: inline-block;
+  margin: 0 20px;
 }
-/*tech-blog*/
-.tech-blog {
-  background-color: rgb(202, 115, 115);
-  margin: 0px -10px;
-  padding: 5px;
-}
-.tech-blog ul li {
-  margin: 20px;
-}
-/*core-blog*/
-.core-blog {
-  background-color: rgb(99, 99, 189);
-  padding: 5px;
-  margin: 0px -10px;
-}
-/*about-me*/
-.about-me {
-  background-color: rgb(219, 219, 136);
-  padding: 5px;
-  margin: 0px -10px;
-  border-left: 50px;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-li {
-  margin-left: 0;
-}
-p {
-  padding: 0px 80px;
-}
+/*body*/
 img {
+  object-fit: cover;
   width: 300px;
+  height: 300px;
+  max-width: 300px;
+}
+.content {
+  padding: 0 50px;
+}
+.tech-blog {
+  margin: 70px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  border-radius:  5%;
+  justify-content: space-evenly;
+}
+.tech-blog-text {
+  width: 100%;
+  height: 300px;
+  max-width: 300px;
+}
+.core-blog {
+  margin: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.core-blog-text {
+  width: 100%;
+  height: 300px;
+  max-width: 300px;
+}
+.te-houtaewa {
+  margin: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.te-houtaewa-text {
+  width: 100%;
+  height: 300px;
+  max-width: 300px;
+}
+.about-me {
+  margin: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-me-text {
+  width: 100%;
+  height: 300px;
+  max-width: 300px;
+}
+/*footer*/
+.footer-title {
+  font-size: 30px;
+  line-height: 100px;
+  padding-left: 30px;
 }
 /*links*/
 a:link {
-  color: rgb(14, 84, 52);
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: rgb(93, 28, 172);
+  color: gray;
   background-color: transparent;
   text-decoration: none;
 }
-a:hover {
-  color: rgb(19, 223, 16);
+a:active {
+  color: gray;
   background-color: transparent;
   text-decoration: underline;
 }
-.tech-blog-sprint-2 {
-  background-color: rgb(202, 115, 115);
-  margin: 0px -10px;
-  padding: 5px;
+a:hover {
+  color: black;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 500ms ease;
 }
-@media (max-width: 800px) {
-  * {
-  font-size: 20px;
-  }
+/*about me page*/
+
+.about-me-page {
+  display: flex;
+  justify-content: space-evenly;
 }
- 
+.about-me-page-img {
+margin-top: 60px;
+margin-left: 40px
+}
+.about-me-page-text {
+  padding: 40px;
+  margin: 0;
+
+}
