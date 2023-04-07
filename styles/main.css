@@ -93,14 +93,14 @@ margin-left: 40px
 .tech-blog-img img{
   object-fit: fill;
 }
-.margin-border-padding-img {
+.blog-content-img {
   object-fit: contain;
   display: flex;
   margin: 0 auto;
   max-width: 300px;
   width: 100%;
 }
-.margin-border-padding {
+.blog-content {
 width: 50%;
 margin: 0 auto;
 }
