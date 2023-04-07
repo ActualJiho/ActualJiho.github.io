@@ -76,9 +76,7 @@ a:hover {
   color: transparent;
   transition: 500ms ease;
 }
-
 /*about me page*/
-
 .about-me-page {
   display: flex;
   justify-content: space-evenly;
@@ -91,24 +89,22 @@ margin-left: 40px
   padding: 40px;
   margin: 0;
 }
-
 /*tech blog page*/
-
 .tech-blog-img img{
   object-fit: fill;
 }
-.margin-border-padding-page {
+.margin-border-padding-img {
+  object-fit: contain;
   display: flex;
-  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 300px;
+  width: 100%;
 }
-.margin-border-padding-page-img {
-margin-top: 60px;
-margin-left: 40px
+.margin-border-padding {
+width: 50%;
+margin: 0 auto;
 }
-.margin-border-padding-page-text {
-  padding: 40px;
-  margin: 0;
-}
+/*cat*/
 .cat {
   width: 70px;
   height: 70px;
@@ -118,7 +114,6 @@ margin-left: 40px
   right: 10px;
   opacity: 85%;
 }
-
 /*responsive*/
 @media (max-width: 421px) {
 
@@ -174,9 +169,5 @@ margin-left: 40px
 }
 .img {
   margin: 20px;
-}
-.cat {
-  margin-right: 0;
-  
 }
 }
