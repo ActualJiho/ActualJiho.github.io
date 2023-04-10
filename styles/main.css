@@ -79,22 +79,14 @@ a:hover {
   color: transparent;
   transition: 500ms ease;
 }
-/*about me page*/
-.about-me-page {
-  display: flex;
-  justify-content: space-evenly;
-}
-.about-me-page-img {
-margin-top: 60px;
-margin-left: 40px
-}
-.about-me-page-text {
-  padding: 40px;
-  margin: 0;
-}
 /*tech blog page*/
 .tech-blog-img img{
   object-fit: fill;
+}
+.blog-content {
+width: 50%;
+margin: 0 auto;
+padding: 30px 0;
 }
 .blog-content-img {
   object-fit: contain;
@@ -102,11 +94,6 @@ margin-left: 40px
   margin: 0 auto;
   max-width: 300px;
   width: 100%;
-}
-.blog-content {
-width: 50%;
-margin: 0 auto;
-padding: 30px 0;
 }
 /*cat*/
 .cat {
