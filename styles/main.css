@@ -13,7 +13,7 @@ body {
 }
 .nav-bar {
   list-style: none;
- 
+  padding: 0 50px;
 }
 .nav-bar ul {
   float: right;
@@ -26,7 +26,7 @@ body {
   display: inline-block;
   margin: 0 20px;
 }
-/*body*/
+/*MAIN*/
 abbr {
   font-style: italic;
 }
