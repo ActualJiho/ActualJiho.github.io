@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+/* a:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+} */
+a:active {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: black;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 500ms ease;
+}
