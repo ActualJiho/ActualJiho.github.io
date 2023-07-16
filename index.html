@@ -79,38 +79,45 @@
       <div class="p-20 pt-96 pb-96 w-full" id="AboutMe">
         <div class="flex items-center justify-center">
           <div class="flex w-3/5 m-auto gap-2">
-            <div class="w-1/2">
-              <img
-                class="bg-cover w-96 rounded-lg m-auto"
-                src="/public/img/web-development.gif"
-                alt="Jiho"
-              />
-            </div>
             <div class="w-1/2 m-auto">
               <p class="text-3xl font-extrabold text-blue-400">About me</p>
               <br />
               <p class="text-lg leading-loose ">
                 About me blah blah
               </p>
-            </div>     
+            </div>   
+            <div class="w-1/2">
+              <img
+                class="bg-cover w-96 rounded-lg m-auto"
+                src="/public/img/web-development.gif"
+                alt="Jiho"
+              />
+            </div>  
           </div>
         </div>
       </div>
       <div class="p-10 pt-80 pb-80 bg-stone-100" id="Portfolios">
-        <h1 class="p-10 w-1/2 m-auto text-2xl">Portfolios</h1>
-        <div class="flex gap-8 w-1/2 m-auto border-4 bg-white rounded-lg">
-          <div class="m-3">
-            
-            <img class="overflow-hidden w-96 h-52 bg-contain transform transition-transform duration-3000" style="transform: translateY(0);"
-            src="/public/img/devify.png" alt="website" >
-
+        <h1 class="p-10 w-2/3 m-auto text-2xl">Portfolios</h1>
+        <div class="flex gap-8 w-2/3 m-auto border-4 bg-white rounded-lg p-10">
+          <div class="m-3 border-2 rounded-lg">
+            <a href="devify.pushed.nz">
+              <img class="overflow-hidden w-96 h-52 object-cover object-top transform transition-transform duration-3000" style="transform: translateY(0);"
+              src="/public/img/devify.png" alt="website" >
+            </a>
           </div>
-          <div class="w-1/2 m-auto gap-4">
-            <p class="text-5xl font-extrabold">Devify</p>
+          <div class="w-1/2 m-auto gap-4 p-2">
+            <div class="flex gap-4">
+            <p class="text-3xl font-extrabold text-blue-400">Devify </p>
+            <button
+              onclick="window.location.href='https://devify.pushed.nz'"
+              type="button"
+              class="inline-block rounded-full bg-blue-400 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+              Live Demo
+            </button>
+          </div>
             <br />
-            <p class="text-xl leading-loose">
-              My Project
-            </p>
+            <p class="text-lg leading-loose">
+              Enhanced an ecommerce website with a focus on clean design and improved user experience, building upon the initial concept inspired by Shopify.            </p>
             <br />
             
           </div>
