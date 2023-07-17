@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <nav class="fixed z-50 text-lg w-full h-auto flex justify-between align-middle top-0 p-8 bg-white font-bold">
+      <nav class="fixed z-50 text-sm md:text-lg w-full h-auto flex justify-between align-middle top-0 p-8 bg-white font-bold">
         <label class=""><a href="index.html">ActualJiho</a></label>
         <ul class="flex gap-8">
           <li><a href="#Home">Home</a></li>
@@ -31,13 +31,12 @@
       <div class="bg-stone-100 p-20 pt-96 pb-96 w-full" id="Home">
         <div class="flex items-center justify-center">
           <div class="relative w-full z-30">
-            <div class="absolute top-0 left-2/3 w-96 h-96 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-            <div class="absolute bottom-36 left-1/2 w-96 h-96 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-            <div class="absolute top-28 left-1/2 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+            <div class="absolute top-0 left-2/3 lg:top-0 lg:left-2/3  w-48 h-48 lg:w-96 lg:h-96 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+            <div class="absolute top-56 left-2/3 lg:-top-36 lg:left-1/2 w-48 h-48 lg:w-96 lg:h-96 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+            <div class="absolute top-28 right-2/5 lg:top-28 lg:left-1/2 w-64 h-64 lg:w-96 lg:h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
             <div class="relative space-y-4 w-full">
-              <div class="flex w-3/5 m-auto gap-2">
-          
-                <div class="w-1/2">
+              <div class="flex flex-col text-center lg:text-left lg:flex-row w-full md:w-3/5 m-auto gap-9 ">
+                <div class="lg:w-1/2">
                   <img
                     class="bg-cover w-80 h-80 rounded-lg m-auto"
                     src="/public/img/Me.jpg"
@@ -45,14 +44,14 @@
                   />
                 </div>
                 <div class="w-1/2 m-auto">
-                  <p class="text-5xl font-extrabold">Full-Stack Web Developer</p>
+                  <p class="text-3xl lg:text-5xl font-extrabold">Full-Stack Web Developer</p>
                   <br />
-                  <p class="text-xl leading-loose ">
+                  <p class="text-xl leading-loose">
                     Hi, I'm Jiho. A web developer who loves turning ideas into reality and being
                     creative.
                   </p>
                   <br />
-                  <div class="flex gap-2">
+                  <div class="flex gap-2 justify-center lg:justify-start">
                     <a href="https://github.com" target="_blank" rel="noopener noreferrer">
                       <img class="w-9" src="/public/assets/github.svg"alt="github" />
                     </a>
@@ -61,13 +60,12 @@
                     </a>
                   </div>
                   <br />
-                  <div class="flex gap-2 w-9">
-                          
-                          <img alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-                          <img alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-                          <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-                          <img alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
-                          <img alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                  <div class="flex gap-2 w-9 m-auto lg:m-0 justify-center lg:justify-normal">
+                    <img alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+                    <img alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+                    <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                    <img alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
+                    <img alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
                   </div>
                 </div>
               </div>      
@@ -97,29 +95,36 @@
         </div>
       </div>
       <div class="p-10 pt-80 pb-80 bg-stone-100" id="Portfolios">
-        <h1 class="p-10 w-2/3 m-auto text-2xl">Portfolios</h1>
-        <div class="flex gap-8 w-2/3 m-auto border-4 bg-white rounded-lg p-10">
-          <div class="m-3 border-2 rounded-lg">
+        <h1 class="p-10 text-center lg:w-2/3 m-auto text-2xl">Portfolios</h1>
+        <div class="flex flex-col lg:flex-row gap-8 w-full lg:w-2/3 m-auto bg-white rounded-lg p-10">
+          <div class="m-3 border-4 rounded-lg">
             <a href="devify.pushed.nz">
-              <img class="overflow-hidden w-96 h-52 object-cover object-top transform transition-transform duration-3000" style="transform: translateY(0);"
+              <img class="overflow-hidden w-full h-96 lg:w-96 object-cover object-top transform transition-transform duration-3000" style="transform: translateY(0);"
               src="/public/img/devify.png" alt="website" >
             </a>
           </div>
-          <div class="w-1/2 m-auto gap-4 p-2">
-            <div class="flex gap-4">
-            <p class="text-3xl font-extrabold text-blue-400">Devify </p>
-            <button
-              onclick="window.location.href='https://devify.pushed.nz'"
-              type="button"
-              class="inline-block rounded-full bg-blue-400 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
-              Live Demo
-            </button>
-          </div>
+          <div class="w-full lg:w-1/2 m-auto gap-4 p-2">
+            <div class="flex gap-4 justify-center lg:justify-start">
+              <p class="text-3xl font-extrabold text-blue-400">Devify </p>
+              <button
+                onclick="window.location.href='https://devify.pushed.nz'"
+                type="button"
+                class="inline-block rounded-lg bg-blue-400 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+                Live Demo
+              </button>
+            </div>
             <br />
             <p class="text-lg leading-loose">
               Enhanced an ecommerce website with a focus on clean design and improved user experience, building upon the initial concept inspired by Shopify.            </p>
             <br />
-            
+              <p>Top Tech Stacks used in this project</p>
+              <div class="flex flex-wrap gap-2 w-full">
+                <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+                <img src="https://img.shields.io/badge/Stripe-008CDD?logo=stripe&logoColor=fff&style=for-the-badge"/>
+                <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"/>
+                <img src="https://img.shields.io/badge/Knex.js-FF781F?style=for-the-badge"/>
+                <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+              </div>
           </div>
         </div>        
       </div>
