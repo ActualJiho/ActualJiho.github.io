@@ -11,15 +11,47 @@
   </head>
   <body>
     <header>
-      <nav class="fixed z-50 text-sm md:text-lg w-full h-auto flex justify-between align-middle top-0 p-8 bg-white font-bold">
+
+<nav class="fixed w-full z-50 bg-white border-gray-200 dark:bg-gray-900">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="index.html" class="flex items-center">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Actual.Jiho</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white ">
+        <li>
+          <a href="#" class="block py-2 pl-3 pr-4 text-black bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About Me</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Portfolios</a>
+        </li>
+        
+        <li>
+          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <!-- <nav class="fixed flex z-50 justify-center text-xl lg:text-lg w-full lg:h-auto lg:justify-between align-middle top-0 p-8 bg-white font-bold">
         <label class=""><a href="index.html">ActualJiho</a></label>
-        <ul class="flex gap-8">
+        <ul class="absolute top-24 lg:static lg:flex lg:flex-row gap-8 bg-blue-200">
           <li><a href="#Home">Home</a></li>
           <li><a href="#AboutMe">About Me</a></li>
           <li><a href="#Portfolios">Portfolios</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
     <main>
       <!-- <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4&ab_channel=NyanCat">
@@ -47,8 +79,11 @@
                   <p class="text-3xl lg:text-5xl font-extrabold">Full-Stack Web Developer</p>
                   <br />
                   <p class="text-xl leading-loose">
-                    Hi, I'm Jiho. A web developer who loves turning ideas into reality and being
-                    creative.
+                    Hi, I'm Jiho. 👋🏼
+                  </p>
+                  <p class="text-xl leading-loose">
+                    A web developer who loves turning ideas into reality and being
+                  creative.
                   </p>
                   <br />
                   <div class="flex gap-2 justify-center lg:justify-start">
@@ -79,9 +114,11 @@
             <div class="w-full text-center lg:text-left lg:w-1/2 m-auto gap-4 p-2">
               <p class="text-3xl font-extrabold text-blue-400">About me</p>
               <br />
-              <p class="text-lg leading-loose ">
-                I'm Jiho, a web developer with a passion for transforming ideas into reality through coding. With over 8 years of experience in the telecommunications field and having achieved my lifelong goal of building my first home, I decided to shift gears and pursue my true interest in coding. Collaborating closely with the development team at my current employer ignited my curiosity and motivated me to delve deeper into coding. I take delight in creating visually appealing and responsive websites, and my recent experience with Tailwind CSS has been particularly enjoyable. I eagerly anticipate the opportunity to join a team where I can continue to learn and grow in my web development journey!
+              <p class="text-md px-5 m-auto lg:p-0 lg:m-0 leading-loose ">
+                Hello again! Let me tell you little about myself. With over 8 years of experience in the telecommunications field and having achieved my lifelong goal of building my first home, I decided to shift gears and pursue my true interest in coding. Collaborating closely with the development team at my current employer ignited my curiosity and motivated me to delve deeper into coding. I take delight in creating visually appealing and responsive websites, and my recent experience with Tailwind CSS has been particularly enjoyable. I eagerly anticipate the opportunity to join a team where I can continue to learn and grow in my web development journey!
               </p>
+              <br />
+              <a class="text-2xl font-bold text-blue-400" href="https://drive.google.com/file/d/1xlON46lAcsFNftvjmUmaNwVJVQuFDncm/view?usp=sharing">Click here to view my CV 😎</a>
             </div>   
             <div class="lg:w-1/2">
               <img
@@ -96,9 +133,9 @@
       <section class="lg:p-20 pt-52 pb-52 lg:pt-96 lg:pb-96 w-full bg-stone-100" id="Portfolios">
         <h1 class="pb-10 text-center lg:text-left lg:w-2/3 m-auto text-3xl font-extrabold">Portfolios</h1>
         <div class="flex flex-col lg:flex-row gap-8 w-full lg:w-2/3 m-auto bg-white rounded-lg p-10">
-          <div class="m-3 border-4 rounded-lg">
+          <div class="m-3  ">
             <a href="devify.pushed.nz">
-              <img class="overflow-hidden w-full h-96 lg:w-96 object-cover object-top transform transition-transform duration-3000" style="transform: translateY(0);"
+              <img class="overflow-hidden m-auto border-4 rounded-lg w-80 h-60 lg:w-96 object-cover object-top transform transition-transform duration-3000" style="transform: translateY(0);"
               src="/public/img/devify.png" alt="website" >
             </a>
           </div>
@@ -131,7 +168,7 @@
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 ">Contact</h2>
             <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">
-              Want to be friends?
+              Want to connect?
             </p>
             <form action="https://formsubmit.co/actualjiho@gmail.com" method="POST" class="space-y-8">
                 <div>
@@ -162,7 +199,7 @@
           </a>
           <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 ">
             <li class="mr-4 hover:underline md:mr-6">
-              <a href="https://github.com/jiho-burgesskim">
+              <a href="https://github.com/ActualJiho">
                 Contact
                 
               </a>
