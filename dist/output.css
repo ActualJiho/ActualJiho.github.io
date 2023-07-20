@@ -694,6 +694,10 @@ video {
   z-index: 20;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .m-3 {
   margin: 0.75rem;
 }
@@ -1320,6 +1324,11 @@ video {
   padding-right: 0.75rem;
 }
 
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .pb-80 {
   padding-bottom: 20rem;
 }
@@ -1366,6 +1375,14 @@ video {
 
 .pr-4 {
   padding-right: 1rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .text-center {
@@ -1893,6 +1910,10 @@ a:hover {
     justify-content: space-between;
   }
 
+  .sm\:p-8 {
+    padding: 2rem;
+  }
+
   .sm\:text-center {
     text-align: center;
   }
@@ -1994,6 +2015,10 @@ a:hover {
 
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
   }
 
   .md\:py-8 {
@@ -2124,6 +2149,10 @@ a:hover {
     height: 100vh;
   }
 
+  .lg\:h-80 {
+    height: 20rem;
+  }
+
   .lg\:w-96 {
     width: 24rem;
   }
@@ -2154,6 +2183,10 @@ a:hover {
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
   }
 
   .lg\:flex-grow {
@@ -2196,9 +2229,22 @@ a:hover {
     padding: 9rem;
   }
 
+  .lg\:p-8 {
+    padding: 2rem;
+  }
+
+  .lg\:p-3 {
+    padding: 0.75rem;
+  }
+
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .lg\:py-96 {
+    padding-top: 24rem;
+    padding-bottom: 24rem;
   }
 
   .lg\:pb-96 {
