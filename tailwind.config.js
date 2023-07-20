@@ -3,6 +3,9 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     extend: {
+      transitionDuration: {
+        4000: '4000ms',
+      },
       animation: {
         blob: 'blob 7s infinite',
       },
