@@ -11,72 +11,34 @@
   </head>
   <body>
     <header>
-
-<nav class="fixed w-full z-50 bg-white border-gray-200 dark:bg-gray-900">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="index.html" class="flex items-center">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Actual.Jiho</span>
-    </a>
-    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-default" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white ">
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-black bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">Home</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About Me</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Portfolios</a>
-        </li>
-        
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-      <!-- <nav class="fixed flex z-50 justify-center text-xl lg:text-lg w-full lg:h-auto lg:justify-between align-middle top-0 p-8 bg-white font-bold">
-        <label class=""><a href="index.html">ActualJiho</a></label>
-        <ul class="absolute top-24 lg:static lg:flex lg:flex-row gap-8 bg-blue-200">
-          <li><a href="#Home">Home</a></li>
+      <nav class="fixed top-0 z-50 flex flex-wrap justify-center w-full p-8 text-xl font-bold align-middle bg-white md:text-lg md:h-auto md:justify-between">
+        <label class="text-3xl md:text-lg"><a href="index.html">Actual.Jiho</a></label>
+        <ul class="flex-row hidden gap-8 bg-white md:flex md:static">
+          <li><a href="#Home" class="ml-20">Home</a></li>
           <li><a href="#AboutMe">About Me</a></li>
           <li><a href="#Portfolios">Portfolios</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
-      </nav> -->
+      </nav>
     </header>
     <main>
-      <!-- <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4&ab_channel=NyanCat">
-        <img
-          class="w-16 h-16 rounded-full fixed bottom-10 right-10 opacity-85"
-          src="https://www.icegif.com/wp-content/uploads/2021/11/icegif-1148.gif"
-        />
-      </a> -->
-      <section class="bg-stone-100 lg:p-20 pt-52 pb-52 lg:pt-96 lg:pb-96 w-full" id="Home">
-        <div class="flex items-center justify-center">
-          <div class="relative w-full z-30">
-            <div class="absolute top-52 w-44 h-44 sm:top-0 sm:left-2/3 lg:top-0 lg:left-2/3  sm:w-48 sm:h-48 lg:w-96 lg:h-96 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-            <div class="absolute top-28 right-0 w-36 h-36 sm:top-56 sm:left-2/3 lg:-top-36 lg:left-1/2 sm:w-48 sm:h-48 lg:w-96 lg:h-96 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-            <div class="absolute -top-16 left-12sm:top-28 sm:right-2/5 lg:top-28 lg:left-1/2 w-64 h-64 lg:w-96 lg:h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-            <div class="relative space-y-4 w-full">
-              <div class="flex flex-col text-center lg:text-left lg:flex-row w-full md:w-3/5 m-auto gap-9 ">
-                <div class="lg:w-1/2">
+      <section class="flex justify-center w-full h-screen bg-stone-100" id="Home">
+        <div class="flex items-center justify-center align-middle">
+          <div class="relative z-30 w-full">
+            <div class="absolute bg-purple-300 rounded-full top-52 w-44 h-44 sm:top-0 sm:left-2/3 lg:top-0 lg:left-2/3 sm:w-48 sm:h-48 lg:w-96 lg:h-96 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+            <div class="absolute right-0 bg-yellow-300 rounded-full top-28 w-36 h-36 sm:top-56 sm:left-2/3 lg:-top-36 lg:left-1/2 sm:w-48 sm:h-48 lg:w-96 lg:h-96 mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+            <div class="absolute w-64 h-64 bg-blue-300 rounded-full -top-16 left-12sm:top-28 sm:right-2/5 lg:top-28 lg:left-1/2 lg:w-96 lg:h-96 mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+            <div class="relative w-full space-y-4">
+              <div class="flex flex-col w-full m-auto text-center lg:text-left lg:flex-row gap-9 ">
+                <div class="flex justify-center w-full">
                   <img
-                    class="bg-cover w-80 h-80 rounded-lg m-auto"
+                    class="m-auto bg-cover rounded-lg w-80 h-80"
                     src="/public/img/Me.jpg"
                     alt="Jiho"
                   />
                 </div>
-                <div class="w-1/2 m-auto">
-                  <p class="text-3xl lg:text-5xl font-extrabold">Full-Stack Web Developer</p>
+                <div class="w-full m-auto">
+                  <p class="text-3xl font-extrabold lg:text-5xl">Full-Stack Web Developer</p>
                   <br />
                   <p class="text-xl leading-loose">
                     Hi, I'm Jiho. 👋🏼
@@ -86,7 +48,7 @@
                   creative.
                   </p>
                   <br />
-                  <div class="flex gap-2 justify-center lg:justify-start">
+                  <div class="flex justify-center gap-2 lg:justify-start">
                     <a href="https://github.com" target="_blank" rel="noopener noreferrer">
                       <img class="w-9" src="/public/assets/github.svg"alt="github" />
                     </a>
@@ -95,7 +57,7 @@
                     </a>
                   </div>
                   <br />
-                  <div class="flex gap-2 w-9 m-auto lg:m-0 justify-center lg:justify-normal">
+                  <div class="flex justify-center gap-2 m-auto w-9 lg:m-0 lg:justify-normal">
                     <img alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
                     <img alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
                     <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
@@ -108,40 +70,40 @@
           </div>
         </div>  
       </section>
-      <section class="lg:p-20 pt-52 pb-52 lg:pt-96 lg:pb-96 w-full" id="AboutMe">
+      <section class="w-full lg:p-20 pt-52 pb-52 lg:pt-96 lg:pb-96" id="AboutMe">
         <div class="flex items-center justify-center">
-          <div class="flex flex-col-reverse lg:flex-row lg:w-3/5 m-auto gap-9">
-            <div class="w-full text-center lg:text-left lg:w-1/2 m-auto gap-4 p-2">
+          <div class="flex flex-col-reverse m-auto align-center lg:flex-row lg:w-4/5 gap-9">
+            <div class="w-full gap-4 p-2 m-auto text-center lg:text-left lg:w-2/3">
               <p class="text-3xl font-extrabold text-blue-400">About me</p>
               <br />
-              <p class="text-md px-5 m-auto lg:p-0 lg:m-0 leading-loose ">
+              <p class="px-5 m-auto leading-loose text-md lg:p-0 lg:m-0 ">
                 Hello again! Let me tell you little about myself. With over 8 years of experience in the telecommunications field and having achieved my lifelong goal of building my first home, I decided to shift gears and pursue my true interest in coding. Collaborating closely with the development team at my current employer ignited my curiosity and motivated me to delve deeper into coding. I take delight in creating visually appealing and responsive websites, and my recent experience with Tailwind CSS has been particularly enjoyable. I eagerly anticipate the opportunity to join a team where I can continue to learn and grow in my web development journey!
               </p>
               <br />
               <a class="text-2xl font-bold text-blue-400" href="https://drive.google.com/file/d/1xlON46lAcsFNftvjmUmaNwVJVQuFDncm/view?usp=sharing">Click here to view my CV 😎</a>
             </div>   
-            <div class="lg:w-1/2">
-              <img
-                class="bg-cover w-80 h-80 rounded-lg m-auto"
-                src="/public/img/web-development.gif"
-                alt="Jiho"
-              />
-            </div>  
+            <div class="flex items-center justify-center">
+                <img
+                  class="m-auto bg-cover rounded-lg w-80 h-80"
+                  src="/public/img/web-development.gif"
+                  alt="Jiho"
+                />
+            </div> 
           </div>
         </div>
       </section>
-      <section class="lg:p-20 pt-52 pb-52 lg:pt-96 lg:pb-96 w-full bg-stone-100" id="Portfolios">
-        <h1 class="pb-10 text-center lg:text-left lg:w-2/3 m-auto text-3xl font-extrabold">Portfolios</h1>
-        <div class="flex flex-col lg:flex-row gap-8 w-full lg:w-2/3 m-auto bg-white rounded-lg p-10">
-          <div class="m-3  ">
+      <section class="w-full lg:p-20 pt-52 pb-52 lg:pt-96 lg:pb-96 bg-stone-100" id="Portfolios">
+        <h1 class="pb-10 m-auto text-3xl font-extrabold text-center lg:text-left lg:w-2/3">Portfolios</h1>
+        <div class="flex flex-col w-full gap-8 p-10 m-auto bg-white rounded-lg lg:flex-row lg:w-2/3">
+          <div class="m-3 ">
             <a href="devify.pushed.nz">
-              <img class="overflow-hidden m-auto border-4 rounded-lg w-80 h-60 lg:w-96 object-cover object-top transform transition-transform duration-3000" style="transform: translateY(0);"
+              <img class="object-cover object-top m-auto overflow-hidden transition-transform transform border-4 rounded-lg w-80 h-60 lg:w-96 duration-3000" style="transform: translateY(0);"
               src="/public/img/devify.png" alt="website" >
             </a>
           </div>
-          <div class="w-full text-center lg:text-left lg:w-1/2 m-auto gap-4 p-2">
-            <div class="flex flex-col lg:flex-row gap-4 justify-center lg:justify-start">
-              <p class="text-3xl  font-extrabold text-blue-400">Devify </p>
+          <div class="w-full gap-4 p-2 m-auto text-center lg:text-left lg:w-1/2">
+            <div class="flex flex-col justify-center gap-4 lg:flex-row lg:justify-start">
+              <p class="text-3xl font-extrabold text-blue-400">Devify </p>
               <button
                 onclick="window.location.href='https://devify.pushed.nz'"
                 type="button"
@@ -153,8 +115,8 @@
             <p class="text-lg leading-loose">
               Enhanced an ecommerce website with a focus on clean design and improved user experience, building upon the initial concept inspired by Shopify.            </p>
             <br />
-              <p>Top Tech Stacks used in this project</p>
-              <div class="flex flex-wrap justify-center lg:justify-start gap-2 w-full">
+              
+              <div class="flex flex-wrap justify-center w-full gap-2 lg:justify-start">
                 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
                 <img src="https://img.shields.io/badge/Stripe-008CDD?logo=stripe&logoColor=fff&style=for-the-badge"/>
                 <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"/>
@@ -165,9 +127,9 @@
         </div>        
       </section>
       <section id="Contact">
-        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 ">Contact</h2>
-            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">
+        <div class="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
+            <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900 ">Contact</h2>
+            <p class="mb-8 font-light text-center text-gray-500 lg:mb-16 sm:text-xl">
               Want to connect?
             </p>
             <form action="https://formsubmit.co/actualjiho@gmail.com" method="POST" class="space-y-8">
@@ -177,20 +139,20 @@
                 </div>
                 <div>
                     <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 ">Subject</label>
-                    <input name="subject" type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 " placeholder="How can I help?" required>
+                    <input name="subject" type="text" id="subject" class="block w-full p-3 text-sm text-gray-900 border border-gray-300 rounded-lg shadow-sm bg-gray-50 focus:ring-primary-500 focus:border-primary-500 " placeholder="How can I help?" required>
                 </div>
                 <div class="sm:col-span-2">
                     <label for="message" class="block mb-2 text-sm font-medium text-gray-900 ">Your message</label>
                     <textarea name="message" id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 " placeholder="Leave a comment..."></textarea>
                 </div>
-                <button type="submit" class="py-3 px-5 text-sm font-medium text-center rounded-lg text-white bg-blue-400 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 ">Send message</button>
+                <button type="submit" class="px-5 py-3 text-sm font-medium text-center text-white bg-blue-400 rounded-lg sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 ">Send message</button>
             </form>
         </div>
       </section>
     </div>
     </main>
-    <footer class="bg-white font-sans">
-      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+    <footer class="font-sans bg-white">
+      <div class="w-full max-w-screen-xl p-4 mx-auto md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
           <a href="/" class="flex items-center mb-4 sm:mb-0">
             <span class="self-center text-2xl font-semibold whitespace-nowrap">
@@ -208,7 +170,7 @@
             </li>
           </ul>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
+        <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <span class="block text-sm text-gray-500 sm:text-center ">
           © 2023
           <a href="/" class="hover:underline">
